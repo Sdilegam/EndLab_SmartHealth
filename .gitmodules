@@ -1,0 +1,6 @@
+[submodule "SmartHealth_Front"]
+	path = SmartHealth_Front
+	url = git@github.com:Sdilegam/SmartHealth_Front.git
+[submodule "SmartHealth_Back"]
+	path = SmartHealth_Back
+	url = git@github.com:Sdilegam/SmartHealth_Back.git
