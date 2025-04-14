@@ -1,0 +1,13 @@
+include:
+  - SmartHealth_Back/compose.yaml
+services:
+  SmartHealth_Client:
+    image: smarthealth_client
+    build:
+      context: SmartHealth_Front
+      dockerfile: ./Dockerfile
+    ports:
+      - 8003:4200
+    depends_on:
+      - SmartHealth_API
+
